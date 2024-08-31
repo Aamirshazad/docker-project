@@ -4,4 +4,4 @@ app = FastApi()
 
 @app.get("/")
 def root():
-    return {"messsage": "Hello Doker"}
+    return {"messsage": "Hello world"}
